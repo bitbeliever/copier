@@ -7,4 +7,5 @@ var (
 	ErrInvalidCopyFrom        = errors.New("copy from is invalid")
 	ErrMapKeyNotMatch         = errors.New("map's key type doesn't match")
 	ErrNotSupported           = errors.New("not supported")
+	errtest = 1
 )
